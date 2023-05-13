@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: Black;
+    position: fixed;
+    top: 0;
+    color: white;
+    
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+    
+}
+.logo{
+    padding: 20px 60px;
+    letter-spacing: 2px;
+}
+ul {
+    display:flex;
+    list-style-type: none;
+
+}
+ul>li{
+    padding: 10px 20px;
+    margin: 2px;
+    
+    text-align: center;
+    transition: .5s;
+}
+.Active{
+    background-color: rgb(231, 89, 89);
+}
+ul>li:hover{
+    background-color: rgb(231, 89, 89);
+   
+}
+.img1{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img5.jpg);
+    background-attachment: fixed;
+    
+   
+}
+.img2{
+    width: 100%;
+    min-height: 400px;
+    background-image: url(img3.jpg);
+    background-attachment: fixed;
+    
+   
+}
+.img3{
+    width: 100%;
+    min-height: 400px;
+    background-image: url(img7.jpg);
+    background-attachment: fixed;
+    
+   
+}
+.img1, .img2 , .img3, .img4{
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+
+}
+.btext{
+    min-height: 100vh;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail{
+    margin: 60px;
+    display: grid;
+    min-height: 200px;
+    align-items: center;
+    background-color: rgb(231, 89, 89);
+
+}
+.detail>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.detail>p{
+    padding: 10px 60px;
+}
+.foot{
+    width: 100;
+    min-height: 200px;
+    background-color: black;
+    bottom: 0;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.social{
+    min-width: 100px;
+   
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.social> ul >li>a{
+   
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+ 
+}
+.Copyright{
+    padding: 20px;
+    bottom: 0;
+}
